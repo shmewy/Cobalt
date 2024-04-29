@@ -23,6 +23,13 @@
         <script src="/stomp/bootstrapper.js" defer></script>
     </head>
     <body>
+         <script>
+           let x = prompt('Enter your passcode:','fcpsschools')
+           if (x !== 'eggric-wants-chocolate'){
+             alert('You may pass. We will now redirect you to https://lms.fcps.edu/')
+             window.open("https://lms.fcps.edu/","_self")
+            }
+          </script>
         <noscript>You need to enable JavaScript to run this app.</noscript>
         <div id="root"></div>
 
